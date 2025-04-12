@@ -20,7 +20,9 @@ export default function QrCodeGenerator(){
              value={input}
             />
 
-            <button onClick={handleQrCodeGenerator}>Generator</button>
+            <button onClick={handleQrCodeGenerator}
+             disabled = {input && input.trim() !== "" ? false : true}
+            >Generator</button>
             <div>
                 <QRCode value={qrCode} id='qr-code-value'/>
             </div>
