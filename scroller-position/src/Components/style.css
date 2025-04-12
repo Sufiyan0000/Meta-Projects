@@ -1,0 +1,16 @@
+.BasicTracker {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.App{
+    border: none;
+    padding: 20px;
+    box-shadow: 0 0 5px #555;
+    border-radius: 3px;
+}
